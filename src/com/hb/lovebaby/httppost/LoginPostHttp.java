@@ -51,9 +51,6 @@ public class LoginPostHttp {
 		LBApplication lbApplication = (LBApplication) activity.getApplication();
 		Request request = new Request.Builder()
 				.url(lbApplication.getUrl() + "/login/withCredential")
-				// .header("User-Agent", "OkHttp Headers.java")
-				// .addHeader("Accept", "application/json; q=0.5")
-				// .addHeader("Accept", "application/vnd.github.v3+json")
 				.post(formBody).build();
 
 		// enqueue
@@ -69,12 +66,10 @@ public class LoginPostHttp {
 				if (response.isSuccessful()) {
 					System.out.println(response.code());
 
-					// System.out.println(response.body().string());
 					String body = response.body().string(); // 返回值
 					try {
 						mJsonObject = new JSONObject(body);
 					} catch (JSONException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					code = response.code() + ""; // 返回码

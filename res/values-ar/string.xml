@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   
+    <string name="app_name">Honey Baby</string>
+    <string name="baby">Baby</string>
+    <string name="select_area">Select area</string>
+    <string name="invitefamily">Invite family</string>
+    <string name="cloudAlbum">ألبوم سحابي</string>
+    <string name="growthRecord">تسجيل النمو</string>
+    <string name="relatives">أقارب الطفل</string>
+    <string name="greatEvents">لحظات الطفل</string>
+    <string name="babyinfo">حول الطفل</string>
+    <string name="home">Home</string>
+    <string name="community">Community</string>
+    <string name="message">Message</string>
+    <string name="me">Me</string>
+    <string name="loadMore">load more</string>
+    <string name="baby_growth_record">Baby Growth Record</string>
+    <string name="height">طول</string>
+    <string name="height_cap">طول</string>
+    <string name="weight">وزن</string>
+    <string name="weight_cap">وزن</string>
+    <string name="list">List</string>
+    <string name="weight_curve">وزن منحنى</string>
+    <string name="height_curve">طول منحنى</string>
+    <string name="back">خلف</string>
+    <string name="kg">kg</string>
+    <string name="baby_infomation">Baby information</string>
+    <string name="cm">cm</string>
+    <string name="colon">: </string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">Delete</string>
+    <string name="modify">تعديل</string>
+    <string name="operation">Operation</string>
+    <string name="date_cap">Date</string>
+    <string name="date">date</string>
+    <string name="save">حفظ</string>
+    <string name="choose_photo">اختيار الصورة</string>
+    <string name="in_the_input">in the input</string>
+    <string name="confirm">موافق</string>
+    <string name="baby_description">Baby description</string>
+    <string name="prompt_baby_info_reset_invite_code">When do you think the baby invite code may leak,You can reset the invite code,The old invite code will immediately be invalidated.</string>
+    <string name="prompt_delete_baby_info">Are you sure you want to put the "Emilia" removed from the list? This can lead to you cannot continue to see the baby related content.</string>
+    <string name="prompt">Prompt</string>
+    <string name="prompt_delete_record_confirm">Are you sure to delete this record?</string>
+    <string name="modify_growth_record">Modify growth record</string>
+    <string name="prompt_enter_growth_record">Please enter the baby\'s information</string>
+    <string name="search">Search</string>
+    <string name="please_input_here">ادخل هنا</string>
+    <!-- 云相册 -->
+    <string name="cloud_photo_album">ألبوم سحابي</string>
+    <string name="all_video">جميع الفيديوهات</string>
+    <string name="recently_uploaded">آخر التحميلات</string>
+    <string name="all_photos">جميع الصور</string>
+    <string name="complete">تم</string>
+    <string name="a_total_of">A total of </string>
+    <string name="video">فيديو</string>
+    <string name="gallery">Gallery</string>
+    <string name="folder">المجلدات</string>
+    <string name="photo">صورة</string>
+    <string name="sure_delete_relation_right">Sure you want to delete?This will lead to </string>
+    <string name="sure_delete_relation_left">baby space can be assessed.In order to more security.Pro invite code will be reset.</string>
+    <string name="baby_memorabilia">Baby memorabilia</string>
+    <string name="add_growth_record">Add Baby Growth Record</string>
+    <string name="babyinformation">حول الطفل</string>
+    <string name="baby_new_changes">Baby new changes</string>
+    <string name="baby_new_changes_firsttime">The first time</string>
+    <string name="baby_new_changes_textview_hint">Baby laughing，running，or in a daze?</string>
+    <string name="thename">الاسم</string>
+    <string name="gender">الجنس</string>
+    <string name="birthday">عيد الميلاد</string>
+    <string name="constellation">البرج</string>
+    <string name="blood">فصيلة الدم</string>
+    <string name="birth">وقت الولادة</string>
+    <string name="height1">طول</string>
+    <string name="weight1">وزن</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="the_message">The message</string>
+    <string name="from_album_to_choose">اختر من الألبومات </string>
+    <string name="born">Born</string>
+    <string name="invite">Invite</string>
+    <string name="invite_mother">Invite mother to join</string>
+    <string name="invite_father">Invite father to join</string>
+    <string name="mom_visit_times">Mom to %d times</string>
+    <string name="dad_cap">الأب</string>
+    <string name="times">times</string>
+    <string name="recently">Recently</string>
+    <string name="to">to</string>
+    <string name="feedback">ملاحظات</string>
+    <string name="settings">إعدادات</string>
+    <string name="add_family">إضافة أفراد الأسرة</string>
+    <string name="collection">مفضلة</string>
+    <string name="baby_memo">مذكرة الطفل</string>
+    <string name="complete_personal_info">يرجى إكمال المعلومات الشخصية الخاصة بك</string>
+    <string name="my">أنا</string>
+    <string name="alter">alter</string>
+    <string name="invitation_code">Invitation Code</string>
+    <string name="send_invitation_desc">The other input the invitation code completion of validation. You can see the baby pictures and the latest changes. Download the APP:</string>
+    <string name="facebook_invitation">Facebook invitation</string>
+    <string name="information_to_invite">Information to invite</string>
+    <string name="send_invitation">Send invitation</string>
+    <string name="invite_mom_desc_title">Can after mother to accept the invitation:</string>
+    <string name="invite_mom_desc_item1">The mobile phone in the photos together</string>
+    <string name="invite_mom_desc_item2">Record your baby\'s cute together</string>
+    <string name="invite_mom_desc_item3">Learning parenting together</string>
+    <string name="invite_foot_note_mother">Access www.666233.com or in the mother on the phone. Download the APP, enter the invitation code to complete the verification</string>
+    <string name="invite_foot_note_father">Access www.666233.com or in the father on the phone. Download the APP, enter the invitation code to complete the verification</string>
+    <string name="custom_relationship">Custom relationship</string>
+    <string name="determine">Determine</string>
+    <string name="relationship_with_baby">Relationship with the baby</string>
+    <string name="mom">الأم</string>
+    <string name="grandma">جدة</string>
+    <string name="other">الآخر</string>
+    <string name="uncle">عم</string>
+    <string name="younger_sister">أخت</string>
+    <string name="grandpa">جد</string>
+    <string name="younger_brother">أخ</string>
+    <string name="elder_brother">أخ</string>
+    <string name="dad">الأب</string>
+    <string name="elder_sister">أخت</string>
+    <string name="aunt">عمة</string>
+    <string name="adopted_father">Adopted father</string>
+    <string name="custom">Custom</string>
+    <string name="adopted_mother">Adopted mother</string>
+    <string name="nickname_desc">Nickname can be in daily life the baby to your call</string>
+    <string name="nickname">Nickname</string>
+    <string name="permissions">Permissions</string>
+    <string name="permissions_desc">Mom and dad can be permissions set as administrator Maintain the baby information together, include to invite, delete records, baby modify information, etc</string>
+    <string name="personal_info">Personal information</string>
+    <string name="administrator">Administrator</string>
+    <string name="relative_info">Relative information</string>
+    <string name="head_portrait">Head portrait</string>
+    <string name="signature">Signature</string>
+    <string name="name">Name</string>
+    <string name="region">Region</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="not_filled">Not filled</string>
+    <string name="set_head">Set head</string>
+    <string name="set_cover">انقر لتحديد الغلاف</string>
+    <string name="taking_pictures">Taking pictures</string>
+    <string name="local_photo">صور الهاتف</string>
+    <string name="modify_name">Modify the name</string>
+    <string name="modify_name_desc">No more than 20 characters. Support English numbers.</string>
+    <string name="select_region">Select region</string>
+    <string name="edit_signature">Edit signature</string>
+    <string name="account_info">Account information</string>
+    <string name="alerts">Alerts</string>
+    <string name="large_font">كبر الخط</string>
+    <string name="recommend_to_friends">شارك مع أصدقائكم</string>
+    <string name="privacy">الأمن</string>
+    <string name="about_salambaby">About SalamBaby</string>
+    <string name="clear_cache">حذف التخزين المؤقت</string>
+    <string name="video_settings">إعدادات الفيديو</string>
+    <string name="wifi_only_uploading_large_files">WIFI only uploading large files</string>
+    <string name="logout">Logout</string>
+    <string name="password">كلمة السر</string>
+    <string name="mobile_phone_number">رقم الهاتف</string>
+    <string name="password_desc">يمكنك تسجيل الدخول من خلال رقم الهاتف + كلمة المرور بعد التحديد</string>
+    <string name="facebook_account">فيسبوك</string>
+    <string name="account_binding_desc">يمكنك تسجيل الدخول من خلال حسابك بعد الربط</string>
+    <string name="twitter_account">حساب تويتر</string>
+    <string name="unbounded">لم تربط</string>
+    <string name="has_been_set">تم تحديد</string>
+    <string name="replace_phone_number">Replace phone number</string>
+    <string name="bind_new_phone_number">Bind a new phone number</string>
+    <string name="bind_new_phone_number_desc">To protect your account security, binding mobile phone number please. You can use the mobile phone number of landing after binding.</string>
+    <string name="fill_in_phone_number">Fill in the mobile phone number</string>
+    <string name="bind">ربط</string>
+    <string name="only_use_software_decoding">تحميل الملفات الكبيرة تحت  WIFIفقط</string>
+    <string name="permissions_administrator">The administrator</string>
+    <string name="permissions_add_records">Add records</string>
+    <string name="permissions_to_view">To view</string>
+    <string name="permissions_administrator_desc">Hava invited relatives，edit，delete，and so on management authority</string>
+    <string name="permissions_add_records_desc">Can add photos，video until the baby room</string>
+    <string name="permissions_to_view_desc">Can only view and add comments</string>
+    <string name="boy">فتى</string>
+    <string name="girl">فتاة</string>
+    <string name="unknown">Unknown</string>
+    <string name="landing_time">Landing time</string>
+    <string name="modify_name_rule_desc">Please don\'t more than 20 characters,Support English Numbers</string>
+    <string name="click_set_cover">Click Setting cover ></string>
+    <!-- Baby New Changes -->
+    <string name="recording_time">Recording time</string>
+    <string name="visual_range">Visual range</string>
+    <string name="location">Location</string>
+    <string name="visual_range_all_family_members">All the family members</string>
+
+    <!-- Emoji -->
+    <string name="face_recently">Recently</string>
+    <string name="face_Emoji">Emoji</string>
+    <string name="face_set_one">Default</string>
+
+    <!-- 输入框 -->
+    <string name="send">إرسال</string>
+    <string name="send_hint">عبر عن رأيك</string>
+
+    <!-- 列表 -->
+    <string-array name="babyinfo_bloodtype_array">
+        <item>Type O blood</item>
+        <item>Type A blood</item>
+        <item>Type B blood</item>
+        <item>Type AB blood</item>
+        <item>Unkonw</item>
+    </string-array>
+    <string-array name="area_list">
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Chicago</item>
+        <item>Houston</item>
+        <item>Philadelphia</item>
+        <item>Phineas</item>
+        <item>San Diego</item>
+        <item>Dallas</item>
+        <item>San Antonio</item>
+        <item>Detroit</item>
+        <item>St.Joseph</item>
+        <item>Indianapolis</item>
+        <item>San Francisco</item>
+    </string-array>
+    <string-array name="constellation">
+        <item>水瓶座</item>
+        <item>白羊座 </item>
+        <item>巨蟹座</item>
+        <item>摩羯座</item>
+        <item>双子座</item>
+        <item>狮子座</item>
+        <item>天秤座</item>
+        <item>双鱼座</item>
+        <item>射手座</item>
+        <item>天蝎座</item>
+        <item>金牛座</item>
+        <item>处女座</item>
+    </string-array>
+
+    <string name="add_baby">إضافة الطفل</string>
+    <string name="comment">تعليقات</string>
+    <string name="loadinfo">加载中…</string>
+    <string name="record">يومية</string>
+    <string name="select_photo_preview">预览</string>
+    <string name="str_activity_search_hint">البحث عن صور، فيديوهات، منشورات</string>
+    <string name="str_baby_cal_due_date">计算预产期</string>
+    <string name="str_title_bar_title_edit">تحرير</string>
+    <string name="time_capture">Shooting time</string>
+    <string name="time_current">Current time</string>
+    <string name="time_custom">The custom time</string>
+    
+    
+    <!-- 胡 -->
+ <!-- 简体中文 -->
+
+    <!-- 语言设置 -->
+    <string name="tv_set_language_simplified_chinese">简体中文</string>
+    <string name="tv_set_language_traditional_chinese">繁体中文</string>
+
+    <!-- 登录界面login -->
+    <string name="loginbt">تسجيل الدخول</string>
+    <string name="registbt">التسجيل</string>
+
+    <!-- 我的界面 -->
+	
+	<string name="me_title">أنا</string>
+
+    <!-- 添加宝宝 -->
+    <string name="add_my_baby_open_belongs">فتح ملف لطفلك وشاهده ينمو كل يوم أمامك</string>
+    <string name="add_my_baby_boy">فتى</string>
+    <string name="add_my_baby_girl">فتاة</string>
+    <string name="add_my_baby_enter">إدخال رمز الدعوة ></string>
+    <string name="add_my_baby_pay">متابعة الطفل</string>
+    <string name="add_my_baby_title">إإضافة طفلي</string>
+
+    <!-- 添加宝宝邀请码 -->
+    <string name="add_my_baby_enter_invitation_code_title">إدخال رمز التحقق</string>
+    <string name="add_my_baby_enter_invitation_code_edt_hint">إدخال شفر التحقق هنا</string>
+    <string name="add_my_baby_enter_invitation_code_validation">التحقق</string>
+    <string name="add_my_baby_enter_invitation_code_text_messages">يرجى إدخال رمز الدعوة الذي حصلت من رسالة نصية أو فيسبوك</string>
+
+    <!-- 反馈 -->
+    <string name="feedback_title">ملاحظات</string>
+    <string name="feedback_send">إرسال</string>
+    <string name="feedback_edt_hint">يرجى وصف سؤالكم أو اقتراحكم هنا</string>
+    <string name="feedback_visual_range">Visual range</string>
+    <string name="feedback_optional_up_to_three">إضافة الصور(اختياري، على الأكثر 3)</string>
+    <string name="feedback_contact">معلومات الاتصال</string>
+    <string name="feedback_contact_hint">رقم الهاتف أو حساب تويتر</string>
+    <string name="feedback_we_will">سنقرأ ملاحظاتكم بشكل دقيق، وسنرد في أقرب وقت ممكن. اذا لديكم طوارئ في حاجة إلى ردنا الفوري، يمكنكم الاتصال بمركز المساعدة:........ شكرا لدعمكم.</string>
+
+    <!-- 收藏 -->
+    <string name="collection_title">مفضلة</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">إعدادات</string>
+
+    <!-- 分享 -->
+    <string name="share_title">المشاركة على</string>
+    <string name="share_1">فيسبوك</string>
+    <string name="share_2">تويتر</string>
+    <string name="share_3">جوجل</string>
+    <string name="share_4">رسالة قصيرة</string>
+    <string name="share_5">Whatsapp</string>
+    <string name="share_cancles">Cancle</string>
+
+    <!-- Account information -->
+    <string name="account_information_title">معلومات الحساب</string>
+    <string name="account_information_email">البريد الإلكتروني</string>
+    <string name="account_information_google">جوجل</string>
+
+    <!-- bind new Phone number -->
+    <string name="bind_new_phone_number_title">ربط رقم الهاتف جديد</string>
+
+    <!-- bind new email -->
+    <string name="bind_new_email_title">تغيير البريد الإلكتروني</string>
+    <string name="bind_new_email_the_new_email">البريد الإلكتروني الأصلي</string>
+    <string name="bind_new_email_the_new_email_hint">ادخل البريد الإلكتروني الأصلي </string>
+    <string name="bind_new_email_the_new_email_confirm">موافق</string>
+
+    <!-- change password -->
+    <string name="change_password_title">تغيير كلمة السر</string>
+    <string name="change_password_save">حفظ</string>
+    <string name="change_password_old_password">كلمة السر الأصلية</string>
+    <string name="change_password_new_password">كلمة السر الجديدة</string>
+    <string name="change_password_confirm_password">تأكيد</string>
+    <string name="change_password_old_password_hint">يرجى إدخال كلمة السر الأصلية</string>
+    <string name="change_password_new_password_hint">يرجى تحديد كلمة السر الجديدة</string>
+    <string name="change_password_confirm_new_password_hint">يرجى تحديد كلمة السر الجديدة مرة أخرى</string>
+
+    <!-- about -->
+    <string name="about_salam_baby_title">حول Salambaby</string>
+    <string name="about_salam_baby_new_version_testing">إصدار جديد</string>
+    <string name="about_salam_baby_help_center">مركز المساعدة</string>
+    <string name="about_salam_baby_disclaimer_information_and_version">عدم مسؤولية وإصدار جديد</string>
+    <string name="about_salam_baby_copyright">Copyright © 2016 .com all right reserved</string>
+
+    <!-- help center -->
+    <string name="help_center_title">مركز المساعدة</string>
+    <string name="help_center_online_customer_service">خدمة العملاء عبر الإنترنت</string>
+    <string name="help_center_hot_issue">أسئلة وأجوبة</string>
+
+    <!-- video settings -->
+    <string name="video_set_title">إعدادات الفيديو</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">إخطارات</string>
+    <string name="alerts_receive_notifications">تلقي إخطارات</string>
+    <string name="alerts_after_the_opening">افتحه وستتلقى أخطاراتنا في شريط الإعلام.</string>
+    <string name="alerts_parenting_remind">تذكير التربية</string>
+    <string name="alerts_set_whether">تحديد تلقى تذكير التربية أم لا، بما فيه الطول والوزن وسجل النمو </string>
+
+    <!-- Alerts parenting remind -->
+    <string name="alerts_parenting_remind_title">تذكير التربية</string>
+    <string name="alerts_parenting_remind_receive_notifications">تلقي إخطارات</string>
+    <string name="alerts_parenting_remind_after_the_opening">افتحه وستتلقى أخطاراتنا في شريط الإعلام.</string>
+    <string name="alerts_parenting_remind_baby_dynamic">جديد الطفل</string>
+    <string name="alerts_parenting_remind_set_whether_to_receive">تحديد تلقى تحديث الطفل أم لا</string>
+    <string name="alerts_parenting_remind_parenting_remind">تذكير التربية</string>
+    <string name="alerts_parenting_remind_set_whether">تحديد تلقى تذكير التربية أم لا، بما فيه الطول والوزن وسجل النمو </string>
+    
+    <!-- Alerts parenting remind parenting remind -->
+    <string name="alerts_parenting_remind_parenting_remind_title">تذكير التربية</string>
+    <string name="alerts_parenting_remind_parenting_remind_height_and_weight">الطول والوزن</string>
+    <string name="alerts_parenting_remind_parenting_remind_after_closing_month">اذا أغلقته، لن نرسلك إخطارات لمتابعة وزن وطول الطفل شهريا.</string>
+    <string name="alerts_parenting_remind_parenting_remind_moments">لحظات</string>
+    <string name="alerts_parenting_remind_parenting_remind_moments_message">اذا أغلقته، لن نرسلك إخطارات لمتابعة وزن وطول الطفل شهريا.</string>
+    
+    <!-- Alerts parenting remind -->
+    <string name="alerts_aprenting_remind_baby_dynamic_title">جديد الطفل</string>
+    
+    <!-- privacy -->
+    <string name="privacy_security_title">الأمن</string>
+    <string name="privacy_security_log_out_of_other_devices">تسجيل الخروج لأجهزة أخرى</string>
+    
+    <!-- Registered -->
+    <string name="registered_title">تسجيل</string>
+    <string name="registered_account">حساب</string>
+    <string name="registered_account_hint">يرجى إدخال عنوان البريد الإلكتوروني</string>
+    <string name="registered_please_use_the">Please use the right for registration, in order to retrieve the password</string>
+    <string name="registered_the_password">كلمة السر</string>
+    <string name="registered_the_password_hint">يرجى تحديد كلمة السر</string>
+    <string name="registered_confirm_password">تأكيد كلمة السر</string>
+    <string name="registered_confirm_password_hint">يرجى إدخال كلمة السر مرة أخرى</string>
+    <string name="registered_the_name">الاسم</string>
+    <string name="registered_the_name_hint">يرجى إدخال الاسم</string>
+    <string name="registered_complete_registration">إكمال التسجيل</string>
+    <string name="registered_account_is_null">Account is null</string>
+    <string name="registered_password_is_null">Password is null</string>
+    <string name="registered_confirm_password_is_null">Password is null</string>
+    <string name="registered_name_is_null">Name is null</string>
+    <string name="registered_password_different">Two different passwords</string>
+    
+    <!-- http toast -->
+    <string name="http_prompt">Prompt</string>
+    <string name="http_access_to_inforamtion">In the access to informationt</string>
+    <string name="http_data_interface_error">Data interface error</string>
+    <string name="http_data_parsing_errors">Data parsing errors</string>
+    
+    
+    <!-- message 消息 -->
+    <string name="message_title">رسائل</string>
+    <string name="message_system_message">رسالة النظام</string>
+    <string name="message_baby_dynamic">Baby dynamic</string>
+    <string name="message_reply">Reply</string>
+    <string name="message_praise">Praise</string>
+    
+    <!-- prompt dialog -->
+    <string name="prompt_title">Prompt</string>
+    <string name="prompt_message">هل تريد حذف جميع الرسائل؟</string>
+    <string name="prompt_cancle">Cancle</string>
+    <string name="prompt_confirm">موافق</string>
+    
+    <!-- operation dialog -->
+    <string name="operation_title">عمليات</string>
+    <string name="operation_empty_message">إزالة رقم هاتفك</string>
+    <string name="operation_cancle">إلغاء</string>
+    
+    <!-- system message -->
+    <string name="system_message_title">System message</string>
+    
+   	<!-- baby dynamic --> 
+    <string name="baby_dynamic_title">Baby dynamic</string>
+    
+    <!-- reply -->
+    <string name="reply_title">Reply</string>
+    
+    <!-- memo activity  -->
+    <string name="baby_memorabilia_title">Baby memorabilia</string>
+    
+    <!-- baby new changes -->
+    <string name="baby_new_changes_title">Baby new changes</string>
+    <string name="baby_new_changes_save">حفظ</string>
+    
+    <!-- Recording time -->
+    <string name="recording_time_title">Recording time</string>
+    
+    <!-- Visual range -->
+    <string name="visual_range_title">Visual range</string>
+    <string name="visual_range_all_the_family_members">All the family members</string>
+    <string name="visual_range_only_yourself">Only yourself</string>
+    <string name="visual_range_family">Family</string>
+    <string name="visual_range_choose_the_family">Choose the family</string>
+    
+    <string name="submit">تقديم</string>
+</resources>
