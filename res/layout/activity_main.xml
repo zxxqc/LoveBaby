@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/main_activity_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11" >
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dddddd" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <ImageButton
+            android:id="@+id/main_activity_rbtn_home"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="0dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tab_1_s" />
+
+        <ImageButton
+            android:id="@+id/main_activity_rbtn_message"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="0dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tab_2" />
+
+        <ImageButton
+            android:id="@+id/main_activity_rbtn_my_info"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="0dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tab_3" />
+    </LinearLayout>
+
+</LinearLayout>

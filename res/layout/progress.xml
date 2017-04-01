@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/progress"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <!--
+         <com.dw.btime.view.BTCircleProgress
+        xmlns:btcirclepro="http://schemas.android.com/apk/res/com.dw.btime"
+        android:id="@id/progress_bar"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        btcirclepro:arcColor="@color/setting_divider_color"
+        btcirclepro:borderWidth="3.0dip" />
+    -->
+
+    <View
+        android:id="@+id/progress_bar"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip" >
+        
+        
+    </View>
+
+    <TextView
+        android:id="@+id/progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5.0dip"
+        android:text="@string/loadinfo"
+        android:textColor="#fff9b600"
+        android:textSize="18.0sp"
+        android:visibility="gone" />
+
+</LinearLayout>

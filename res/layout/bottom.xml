@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center"
+    android:background="@drawable/borderlast"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/id_tab_growth"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_growth_img"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.5"
+            android:src="@drawable/icon_growthrecord_1"
+            android:background="#00000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#323232"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="List"
+            android:id="@+id/textView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/id_tab_heightcurve"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_height_img"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.5"
+            android:src="@drawable/icon_height2"
+            android:background="#00000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#323232"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Height curve"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/id_tab_weightcurve"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_weight_img"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.5"
+            android:src="@drawable/icon_weight3"
+            android:background="#00000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:textColor="#323232"
+            android:text="Weight curve"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/event_post_upload_progress_bg" />
+    <item android:id="@android:id/progress">
+        <clip>
+            <color android:color="@color/event_post_upload_progress_fail" />
+        </clip>
+    </item>
+</layer-list>

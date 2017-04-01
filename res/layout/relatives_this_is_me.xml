@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+	<!-- 左部 (包含代表自己的绿色的圆) -->
+	<LinearLayout 
+	    android:layout_width="25dp"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	    
+	    <ImageView 
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginStart="5dp"
+	        android:padding="0dp"
+	        android:src="@drawable/green_me"/>
+	    
+	</LinearLayout>
+	
+	<!-- 中部 -->
+	<LinearLayout 
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:gravity="center_horizontal"
+	    android:paddingTop="10dp"
+	    android:orientation="vertical">
+	    
+	    <!-- 我的头像 -->
+	    <com.hb.lovebaby.view.RoundImageView
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:src="@drawable/psd3" />
+	    
+	    <!-- 字: Dad to how many times -->
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginEnd="3dp"
+	            android:textSize="12sp"
+	            android:textColor="@color/baby_green"
+	            android:text="@string/dad_cap"/>
+	        
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginEnd="3dp"
+	            android:textSize="10sp"
+	            android:textColor="@color/gray2"
+	            android:text="@string/to" />
+	        
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginEnd="3dp"
+	            android:textSize="10sp"
+	            android:textColor="@color/baby_pink"
+	            android:text="30" />
+	        
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginEnd="3dp"
+	            android:textColor="@color/gray2"
+	            android:text="@string/times" />
+	        
+	    </LinearLayout>
+	    
+	    <!-- 字: Recently -->
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+		    <TextView
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="8sp"
+		        android:textColor="@color/gray1"
+		        android:text="@string/recently" />
+		    
+		    <TextView
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="8sp"
+		        android:textColor="@color/gray1"
+		        android:layout_marginEnd="3dp"
+		        android:text="@string/colon" />
+		    
+		    <TextView
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="8sp"
+		        android:textColor="@color/gray1"
+		        android:text="20-08 18:30" />
+		</LinearLayout>
+	    
+	</LinearLayout>
+	
+	<!-- 右部 (用于占位) -->
+	<FrameLayout 
+	    android:layout_width="25dp"
+	    android:layout_height="match_parent" />
+
+</LinearLayout>

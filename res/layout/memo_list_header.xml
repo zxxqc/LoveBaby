@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hb.lovebaby"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_gray"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- dirty hack, 用于使中间的 image view 对齐的 layout -->
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <!-- 宝宝头像 -->
+
+            <com.hb.lovebaby.view.RoundImageView
+                android:id="@+id/memo_img"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                app:border_outside_color="@color/baby_blue"
+                app:border_thickness="3dp" />
+
+            <!-- dirty hack, 用于使中间的 image view 对齐的 layout -->
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- gray line -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray2" />
+
+        <TextView
+            android:id="@+id/baby_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emilia"
+            android:textColor="@color/gray4"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/born"
+            android:textColor="@color/gray2"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</FrameLayout>

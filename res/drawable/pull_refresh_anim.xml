@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_1" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_2" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_3" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_4" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_5" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_6" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_7" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_8" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_9" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_10" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_11" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_12" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_13" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_14" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_15" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_16" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_17" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_18" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_19" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_20" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_21" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_22" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_23" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_24" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_25" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_26" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_27" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_28" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_29" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_30" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_31" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_32" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_33" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_34" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_35" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_36" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_37" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_38" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_39" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_40" />
+    <item android:duration="20" android:drawable="@drawable/ic_pull_refresh_frame_41" />
+</animation-list>

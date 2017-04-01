@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*" >
+
+        <TableRow android:layout_width="fill_parent" >
+
+            <!-- 左边日期 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="13"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/main_item_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14"
+                    android:textColor="#333333"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/main_item_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3.24"
+                    android:textColor="#c2c2c2"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/main_item_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day1"
+                    android:textColor="#6ed8d8"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <!-- 中间绿点 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@drawable/main_dot_bg"
+                android:gravity="top|center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:src="@drawable/dot" />
+            </LinearLayout>
+
+            <!-- 右边照片等 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="82"
+                android:orientation="vertical"
+                android:paddingTop="10dp" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/main_content_right_top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <com.honeyBaby.view.RoundImageView
+                            android:id="@+id/main_item_avatar"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/baby_tx" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_toRightOf="@id/main_content_right_top"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/main_item_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="Emilia"
+                            android:textColor="#333333"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/main_item_area"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:text="New York"
+                            android:textColor="#c2c2c2"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <!--
+                     <com.honeyBaby.listView.ListViewForScrollView 
+                    android:id="@+id/main_item_photo"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:background="#FFFFFF"
+			        android:cacheColorHint="#00000000"
+			        android:scrollingCache="false"
+			        android:scrollbars="none"
+			        android:fadingEdge="none"
+			        android:focusableInTouchMode="true"
+			        android:divider="#00000000"/>
+                -->
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:shrinkColumns="*" >
+
+                    <TableRow android:gravity="left" >
+
+                        <ImageButton
+                            android:id="@+id/main_item_photo1"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:background="#00000000"
+                            android:padding="3dp"/>
+
+                        <ImageButton
+                            android:id="@+id/main_item_photo2"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:background="#00000000"
+                            android:padding="3dp"/>
+
+                        <ImageButton
+                            android:id="@+id/main_item_photo3"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:background="#00000000"
+                            android:padding="3dp"/>
+                    </TableRow>
+
+                    <TableRow android:gravity="left" 
+                              android:paddingTop="3dp">
+
+                        <ImageButton
+                            android:id="@+id/main_item_photo4"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:background="#00000000"
+                            android:padding="3dp"/>
+
+                        <ImageButton
+                            android:id="@+id/main_item_photo5"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:background="#00000000"
+                            android:padding="3dp"/>
+
+                        <ImageButton
+                            android:id="@+id/main_item_photo6"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:background="#00000000"
+                            android:padding="3dp"/>
+                    </TableRow>
+                </TableLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Father:It&apos;s too interesting"
+                        android:textColor="#c2c2c2"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="1.2.2014 21:21"
+                        android:textColor="#c2c2c2"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="#c8c7cc" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/main_little_id_1"
+                        android:layout_width="23dp"
+                        android:layout_height="23dp"
+                        android:background="@drawable/little_id1" />
+
+                    <ImageButton
+                        android:id="@+id/main_little_id_2"
+                        android:layout_width="23dp"
+                        android:layout_height="23dp"
+                        android:layout_toRightOf="@id/main_little_id_1"
+                        android:background="@drawable/little_id2" />
+
+                    <TextView
+                        android:id="@+id/main_little_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@id/main_little_id_2"
+                        android:text="2 praise"
+                        android:textColor="#c2c2c2"
+                        android:textSize="12dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/main_little_heart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/heart" />
+
+                        <ImageButton
+                            android:id="@+id/main_little_talk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@id/main_little_heart"
+                            android:background="@drawable/talk" />
+
+                        <ImageButton
+                            android:id="@+id/main_little_collection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@id/main_little_talk"
+                            android:background="@drawable/collection" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="#c8c7cc" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mother:It&apos;s too cute"
+                        android:textColor="#333333"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father:Ha ha ha ha"
+                        android:textColor="#333333"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:text="I also say"
+                        android:textColor="#c2c2c2"
+                        android:textSize="13dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

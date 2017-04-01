@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/relatives_bg_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- action bar -->
+	<com.hb.lovebaby.view.MyActionBar
+	    android:id="@+id/action_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/baby_pink"
+	    app:title="@string/personal_info"
+	    />
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray"
+	    android:layout_marginTop="10dp"/>
+	
+	<!-- Head portrait -->
+	<LinearLayout
+	    android:id="@+id/head_portrait"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:gravity="center_vertical"
+	    android:background="@color/white"
+	    android:orientation="horizontal">
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginStart="10dp"
+	        android:textColor="@color/gray2"
+	        android:background="@color/white"
+	        android:text="@string/head_portrait"/>
+	    
+	    <ImageView
+	        android:id="@+id/icon_iv"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="4dp"
+	        android:layout_marginBottom="4dp"
+	        android:layout_marginEnd="4dp"
+	        android:src="@drawable/psd3"
+	        android:scaleType="centerCrop"
+	        />
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:src="@drawable/arrow"
+	        />
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	
+	<!-- Name -->
+	<LinearLayout 
+	    android:id="@+id/name"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:gravity="center_vertical"
+	    android:background="@color/white"
+	    android:orientation="horizontal">
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+			android:layout_marginTop="10dp"
+	        android:layout_marginStart="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/gray2"
+	        android:background="@color/white"
+	        android:text="@string/name"/>
+	    
+	    <TextView 
+	        android:id="@+id/relationship"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:textColor="@color/gray3"
+	        android:background="@color/white"
+	        android:text="@string/dad"/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:src="@drawable/arrow"
+	        />
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray"
+	    android:layout_marginTop="10dp"/>
+	
+	<!-- Gender -->
+	<LinearLayout 
+	    android:id="@+id/gender"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:gravity="center_vertical"
+	    android:background="@color/white"
+	    android:orientation="horizontal">
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginStart="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/gray2"
+	        android:background="@color/white"
+	        android:text="@string/gender"/>
+	    
+	    <TextView 
+	        android:id="@+id/gender_tv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:textColor="@color/gray3"
+	        android:background="@color/white"
+	        android:text="@string/male"/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:src="@drawable/arrow"
+	        />
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	
+	<!-- Birthday -->
+	<LinearLayout 
+	    android:id="@+id/birthday"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:gravity="center_vertical"
+	    android:background="@color/white"
+	    android:orientation="horizontal">
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginStart="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/gray2"
+	        android:background="@color/white"
+	        android:text="@string/birthday"/>
+	    
+	    <TextView 
+	        android:id="@+id/birthday_textview"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:textColor="@color/gray3"
+	        android:background="@color/white"
+	        android:text="@string/not_filled"/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:src="@drawable/arrow"
+	        />
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	
+	<!-- Region -->
+	<LinearLayout 
+	    android:id="@+id/region"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:gravity="center_vertical"
+	    android:background="@color/white"
+	    android:orientation="horizontal">
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginStart="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/gray2"
+	        android:background="@color/white"
+	        android:text="@string/region"/>
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:background="@color/white"
+	        android:textColor="@color/gray3"
+	        android:text="@string/other"/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:src="@drawable/arrow"
+	        />
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	
+	<LinearLayout 
+	    android:id="@+id/signature"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:gravity="center_vertical"
+	    android:background="@color/white"
+	    android:orientation="horizontal">
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginStart="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/gray2"
+	        android:background="@color/white"
+	        android:text="@string/signature"/>
+	    
+	    <TextView 
+	        android:id="@+id/sign_tv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:textColor="@color/gray3"
+	        android:background="@color/white"
+	        android:text="the sun father"/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:src="@drawable/arrow"
+	        />
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	
+</LinearLayout>

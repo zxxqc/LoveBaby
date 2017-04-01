@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <!-- 为了尾部的 image 可以右对齐的 layout -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 头部图片 -->
+
+        <ImageView
+            android:id="@+id/img_praise_msg_head_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ps1_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="7dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_praise_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray2"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/praise_adapter_pic_01" />
+
+                <TextView
+                    android:id="@+id/tv_praise_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray3"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_praise_min_ago"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/gray1"
+                android:textSize="8sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 尾部图片 -->
+
+    <ImageView
+        android:id="@+id/img_praise_tail_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/psd2" />
+
+</LinearLayout>

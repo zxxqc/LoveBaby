@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bt_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg" >
+
+    <!-- Search bar -->
+
+    <LinearLayout
+        android:id="@+id/search_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/baby_blue_light"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/search_input_style"
+            android:hint="@string/please_input_here"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:singleLine="true"
+            android:textColor="@color/gray3"
+            android:textColorHint="@color/gray2"
+            android:textCursorDrawable="@null"
+            android:textSize="13sp"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="0dp"
+            android:background="@color/transparent"
+            android:src="@drawable/search_btn_blue" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/line_iv"
+        style="@style/setting_divider_style"
+        android:layout_below="@id/search_view"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/ling_bg"
+        android:layout_width="@dimen/time_line_line_width"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/line_iv"
+        android:layout_marginLeft="@dimen/time_line_line_left_margin"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_timeline_line" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/line_iv"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="0.0px"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:listSelector="@drawable/list_selector"
+        android:scrollingCache="false" />
+
+    <RelativeLayout
+        android:id="@+id/view_prompt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@id/list"
+        android:layout_below="@id/line_iv"
+        android:background="#fff8f8f8" >
+
+        <TextView
+            android:id="@+id/tip_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="59.0dip"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/str_activity_search_hint"
+            android:textColor="#ffcbcbcb"
+            android:textSize="16.0sp" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tip_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/textview_activity_search_prompt"
+                android:drawableTop="@drawable/ic_activity_search_prompt_photo"
+                android:text="@string/photo" />
+
+            <TextView
+                style="@style/textview_activity_search_prompt"
+                android:layout_marginLeft="58.5dip"
+                android:drawableTop="@drawable/ic_activity_search_prompt_video"
+                android:text="@string/video" />
+
+            <TextView
+                style="@style/textview_activity_search_prompt"
+                android:layout_marginLeft="58.5dip"
+                android:drawableTop="@drawable/ic_activity_search_prompt_text"
+                android:text="@string/record" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@id/list"
+        layout="@layout/empty"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/progress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@id/list"
+        layout="@layout/progress"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@id/list" >
+
+        <ImageView
+            android:id="@+id/oper_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="#00000000"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/oper_bar"
+            layout="@layout/timeline_item_oper"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@id/list" >
+
+        <ImageView
+            android:id="@+id/comment_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="#00000000"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/comment_bar"
+            layout="@layout/add_comment_bar"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/acti_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="#82000000"
+        android:visibility="gone" />
+
+</RelativeLayout>

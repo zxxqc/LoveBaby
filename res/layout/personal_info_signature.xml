@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- action bar -->
+	<com.hb.lovebaby.view.MyActionBar
+	    android:id="@+id/action_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/baby_pink"
+	    app:title="@string/edit_signature"
+	    app:action_text="@string/save"
+	    />
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray"
+	    android:layout_marginTop="10dp"/>
+	
+	<!-- EditText -->
+	<EditText 
+	    android:id="@+id/signature"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:background="@drawable/input_textedit_shape"
+	    android:inputType="textMultiLine"
+	    android:lines="5"
+	    android:gravity="top"
+	    android:textColor="@color/gray3"
+	    />
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="end">
+        
+	    <TextView
+	        android:id="@+id/signature_char_count"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textColor="@color/gray3"
+	        />
+	    
+	</LinearLayout>
+	    
+
+	<!-- <TextView
+	    android:id="@+id/signature_char_count" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/gray3"
+	   	android:layout_gravity="right"
+	    />  -->
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray"
+	    />
+	
+</LinearLayout>

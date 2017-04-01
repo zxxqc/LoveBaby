@@ -1,0 +1,196 @@
+<resources>
+
+    <!-- 简体中文 -->
+    <string name="app_name">亲宝宝</string>
+
+    <!-- 语言设置 -->
+    <string name="tv_set_language_simplified_chinese">简体中文</string>
+    <string name="tv_set_language_traditional_chinese">繁体中文</string>
+
+    <!-- 登录界面login -->
+    <string name="loginbt">Log in existing accounts</string>
+    <string name="registbt">The new user registration</string>
+
+    <!-- 我的界面 -->
+
+
+    <!-- 添加宝宝 -->
+    <string name="add_my_baby_open_belongs">Open belongs to the baby\'s space \n With the baby grow everyday</string>
+    <string name="add_my_baby_boy">Boy</string>
+    <string name="add_my_baby_girl">Girl</string>
+    <string name="add_my_baby_enter">Enter the invitation code ></string>
+    <string name="add_my_baby_pay">Pay attention to the baby</string>
+    <string name="add_my_baby_title">Add my baby</string>
+
+    <!-- 添加宝宝邀请码 -->
+    <string name="add_my_baby_enter_invitation_code_title">Enter the invitation code</string>
+    <string name="add_my_baby_enter_invitation_code_edt_hint">Input the invitation code</string>
+    <string name="add_my_baby_enter_invitation_code_validation">Validation</string>
+    <string name="add_my_baby_enter_invitation_code_text_messages">Invite code before you receive text messages or WeChat invitation</string>
+
+    <!-- 反馈 -->
+    <string name="feedback_title">Feedback</string>
+    <string name="feedback_send">Send</string>
+    <string name="feedback_edt_hint">Please bridfly describe your question or comments</string>
+    <string name="feedback_visual_range">Visual range</string>
+    <string name="feedback_optional_up_to_three">(optional,Up to three)</string>
+    <string name="feedback_contact">Contact</string>
+    <string name="feedback_contact_hint">Mobile phone number or twitter</string>
+    <string name="feedback_we_will">We will carefully read your feedback,And back to you as soon as possible If you have any urgent problems need to consult and assist , You can call customer service : 000-000-0000 , Thank you for your understanding and support.</string>
+
+    <!-- 收藏 -->
+    <string name="collection_title">Collection</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">Settings</string>
+
+    <!-- 分享 -->
+    <string name="share_title">Share the</string>
+    <string name="share_1">Facebook</string>
+    <string name="share_2">Twitter</string>
+    <string name="share_3">Google</string>
+    <string name="share_4">Message</string>
+    <string name="share_5">Whatsapp</string>
+    <string name="share_cancles">Cancle</string>
+
+    <!-- Account information -->
+    <string name="account_information_title">Account information</string>
+    <string name="account_information_email">E-mail</string>
+    <string name="account_information_google">Google</string>
+
+    <!-- bind new Phone number -->
+    <string name="bind_new_phone_number_title">Bind new phone number</string>
+
+    <!-- bind new email -->
+    <string name="bind_new_email_title">Modify email</string>
+    <string name="bind_new_email_the_new_email">The new email</string>
+    <string name="bind_new_email_the_new_email_hint">Please enter eamil</string>
+    <string name="bind_new_email_the_new_email_confirm">Confirm</string>
+
+    <!-- change password -->
+    <string name="change_password_title">Change the password</string>
+    <string name="change_password_save">Save</string>
+    <string name="change_password_old_password">The old password</string>
+    <string name="change_password_new_password">The new password</string>
+    <string name="change_password_confirm_password">Confirm password</string>
+    <string name="change_password_old_password_hint">Please enter the old password</string>
+    <string name="change_password_new_password_hint">Please enter the new password</string>
+
+    <!-- about -->
+    <string name="about_salam_baby_title">About Salambaby</string>
+    <string name="about_salam_baby_new_version_testing">The new version testing</string>
+    <string name="about_salam_baby_help_center">Help center</string>
+    <string name="about_salam_baby_disclaimer_information_and_version">Disclaimer information and version</string>
+    <string name="about_salam_baby_copyright">Copyright © 2016 .com all right reserved</string>
+
+    <!-- help center -->
+    <string name="help_center_title">Help center</string>
+    <string name="help_center_online_customer_service">Online customer service</string>
+    <string name="help_center_hot_issue">Hot issue</string>
+
+    <!-- video settings -->
+    <string name="video_set_title">Video settings</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">Alerts</string>
+    <string name="alerts_receive_notifications">Receive notifications</string>
+    <string name="alerts_after_the_opening">After the opening,Your notification bar will receive you pay attention to the latest news</string>
+    <string name="alerts_parenting_remind">Parenting remind</string>
+    <string name="alerts_set_whether">Set whether the receive parenting remind, including height and weight growth record</string>
+
+    <!-- Alerts parenting remind -->
+    <string name="alerts_parenting_remind_title">Parenting remind</string>
+    <string name="alerts_parenting_remind_receive_notifications">Receive notifications</string>
+    <string name="alerts_parenting_remind_after_the_opening">After the opening,Your notification bar will receive you pay attention to the latest news</string>
+    <string name="alerts_parenting_remind_baby_dynamic">Baby dynamic</string>
+    <string name="alerts_parenting_remind_set_whether_to_receive">Set whether to receive specific baby\'s dynamic remind</string>
+    <string name="alerts_parenting_remind_parenting_remind">Parenting remind</string>
+    <string name="alerts_parenting_remind_set_whether">Set whether the receive parenting remind, including height and weight growth record</string>
+    
+    <!-- Alerts parenting remind parenting remind -->
+    <string name="alerts_parenting_remind_parenting_remind_title">Parenting remind</string>
+    <string name="alerts_parenting_remind_parenting_remind_height_and_weight">Height and weight</string>
+    <string name="alerts_parenting_remind_parenting_remind_after_closing_month">After the closing , No longer remind you record the height and weight of per month</string>
+    <string name="alerts_parenting_remind_parenting_remind_moments">Moments</string>
+    <string name="alerts_parenting_remind_parenting_remind_moments_message">After the closing , No longer a week to remind you to add and record your baby\'s latest changes</string>
+    
+    <!-- Alerts parenting remind -->
+    <string name="alerts_aprenting_remind_baby_dynamic_title">Baby dynamic</string>
+    
+    <!-- privacy -->
+    <string name="privacy_security_title">Privacy security</string>
+    <string name="privacy_security_gestures_password">Gestures password</string>
+    <string name="privacy_security_not_set">Not Set</string>
+    <string name="privacy_security_log_out_of_other_devices">Log out of other devices</string>
+    
+    <!-- Registered -->
+    <string name="registered_title">Registered</string>
+    <string name="registered_account">Account</string>
+    <string name="registered_account_hint">Please enter the email address</string>
+    <string name="registered_please_use_the">Please use the right for registration, in order to retrieve the password</string>
+    <string name="registered_the_password">The password</string>
+    <string name="registered_the_password_hint">Please enter the password</string>
+    <string name="registered_confirm_password">Confirm password</string>
+    <string name="registered_confirm_password_hint">Please enter the password</string>
+    <string name="registered_the_name">The name</string>
+    <string name="registered_the_name_hint">Please enter name ro nickname</string>
+    <string name="registered_complete_registration">Complete registration</string>
+    <string name="registered_account_is_null">Account is null</string>
+    <string name="registered_password_is_null">Password is null</string>
+    <string name="registered_confirm_password_is_null">Password is null</string>
+    <string name="registered_name_is_null">Name is null</string>
+    <string name="registered_password_different">Two different passwords</string>
+    
+    <!-- http toast -->
+    <string name="http_prompt">Prompt</string>
+    <string name="http_access_to_inforamtion">In the access to informationt</string>
+    <string name="http_data_interface_error">Data interface error</string>
+    <string name="http_data_parsing_errors">Data parsing errors</string>
+    
+    
+    <!-- message 消息 -->
+    <string name="message_title">The message</string>
+    <string name="message_system_message">System message</string>
+    <string name="message_baby_dynamic">Baby dynamic</string>
+    <string name="message_reply">Reply</string>
+    <string name="message_praise">Praise</string>
+    
+    <!-- prompt dialog -->
+    <string name="prompt_title">Prompt</string>
+    <string name="prompt_message">Sure you want to clear all message?</string>
+    <string name="prompt_cancle">Cancle</string>
+    <string name="prompt_confirm">Confirm</string>
+    
+    <!-- operation dialog -->
+    <string name="operation_title">Operation</string>
+    <string name="operation_empty_message">Empty message</string>
+    <string name="operation_cancle">Cancle</string>
+    
+    <!-- system message -->
+    <string name="system_message_title">System message</string>
+    
+   	<!-- baby dynamic --> 
+    <string name="baby_dynamic_title">Baby dynamic</string>
+    
+    <!-- reply -->
+    <string name="reply_title">Reply</string>
+    
+    <!-- memo activity  -->
+    <string name="baby_memorabilia_title">Baby memorabilia</string>
+    
+    <!-- baby new changes -->
+    <string name="baby_new_changes_title">Baby new changes</string>
+    <string name="baby_new_changes_save">Save</string>
+    
+    <!-- Recording time -->
+    <string name="recording_time_title">Recording time</string>
+    
+    <!-- Visual range -->
+    <string name="visual_range_title">Visual range</string>
+    <string name="visual_range_all_the_family_members">All the family members</string>
+    <string name="visual_range_only_yourself">Only yourself</string>
+    <string name="visual_range_family">Family</string>
+    <string name="visual_range_choose_the_family">Choose the family</string>
+    
+
+</resources>

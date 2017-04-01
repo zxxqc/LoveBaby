@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="BabyCurveView">
+        <attr name="axis_x_title" format="string" />
+        <attr name="axis_y_title" format="string" />
+        <attr name="legend_bounds" format="string" />
+        <attr name="legend_data" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="StaggeredGridView">
+        <attr name="drawSelectorOnTop" format="boolean" />
+        <attr name="numColumns" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="MyActionBar">
+        <attr name="title" format="string" />
+        <attr name="action_text" format="string" />
+        <attr name="action_drawable" format="reference" />
+        <attr name="has_back_btn" format="boolean" />
+        <attr name="back_btn_text" format="string" />
+        <attr name="back_btn_icon" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="NineGridImageView">
+        <attr format="dimension" name="singleImgSize"/>
+        <attr format="dimension" name="imgGap"/>
+        <attr format="integer" name="maxSize"/>
+        <attr format="enum" name="showStyle">
+<!--             <enum name="grid" value="0"/>
+            <enum name="fill" value="1"/> -->
+        </attr>
+    </declare-styleable>
+    
+</resources>

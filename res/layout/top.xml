@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#72da6f"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#72da6f"
+        android:layout_margin="20px"
+        android:src="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="Body growth record"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/addrecord"
+        android:layout_width="0px"
+        android:layout_margin="20px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#72da6f"
+        android:src="@drawable/add" />
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_base_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/layout_top_app"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_title_heigh"
+        android:layout_alignParentTop="true"
+        android:gravity="center">
+        
+        <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:shrinkColumns="*" >
+        
+	        <TableRow
+	             android:layout_width="match_parent"
+	             android:layout_height="match_parent"
+	             android:gravity="center" >
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:gravity="left|center_vertical" >
+
+                        <ImageButton
+				            android:id="@+id/btn_back_app"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:layout_centerVertical="true"
+				            android:layout_marginLeft="8dp"
+				            android:background="@drawable/ic_title_btn_back"
+				            android:scaleType="centerCrop" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:gravity="center_vertical|center_horizontal" >
+
+                        <TextView
+				            android:id="@+id/tv_percent_app"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textColor="@android:color/white" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="30"
+                        android:gravity="right|center_vertical" >
+                        
+                        <CheckBox
+					        android:id="@+id/photo_preview_checkbox"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:background="@drawable/btn_checkbox_selector"
+					        android:button="@null" />
+
+                        <TextView
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textColor="@android:color/white"
+				            android:text="Choose"
+				            android:layout_marginRight="8dp"
+				            android:layout_toRightOf="@id/photo_preview_checkbox"
+				            android:layout_marginLeft="5dp"/>
+                        
+                    </RelativeLayout>
+                </TableRow>
+            </TableLayout>
+        
+
+		
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/layout_buttom_app"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_title_heigh"
+        android:layout_alignParentBottom="true"
+        android:gravity="right">
+        
+        <TextView
+            android:id="@+id/tv_preview_ar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:enabled="true"
+            android:text="complete(1/99)"
+            android:textColor="@drawable/btn_black_textcolor_selector"
+            android:background="@drawable/bg_bt_enable_style"
+            android:layout_marginRight="10dp"/>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

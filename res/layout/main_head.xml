@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:pv="http://schemas.android.com/apk/res-auto"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/main_top_bg_style"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+
+        <Button
+            android:id="@+id/main_back_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="#00000000"
+            android:drawableLeft="@drawable/back_bn_style"
+            android:text="@string/baby"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/camera_bn_style"/>
+
+
+        <com.hb.lovebaby.view.RoundImageView
+            android:id="@+id/main_top_avatar"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ps1"
+            pv:border_outside_color="#50c0e9"
+            pv:border_thickness="4dp"/>
+
+
+        <Button
+            android:id="@+id/main_invite_family_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/invite_bn_style"
+            android:text="@string/invitefamily"
+            android:textColor="#d58f15"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#f0eff5"
+                  android:orientation="horizontal"
+                  android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_album_tv"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/album_bn_style"
+            android:gravity="top|center"
+            android:text="@string/cloudAlbum"
+            android:textColor="@color/gray3"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/main_growth_tv"
+            android:drawableTop="@drawable/record_bn_style"
+            android:gravity="top|center"
+            android:text="@string/growthRecord"
+            android:textColor="@color/gray3"
+            android:textSize="12sp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/main_relatives_tv"
+            android:drawableTop="@drawable/relatives_bn_style"
+            android:gravity="top|center"
+            android:text="@string/relatives"
+            android:textColor="@color/gray3"
+            android:textSize="12sp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/main_event_tv"
+            android:drawableTop="@drawable/event_bn_style"
+            android:gravity="top|center"
+            android:text="@string/greatEvents"
+            android:textColor="@color/gray3"
+            android:textSize="12sp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/main_babyinfo_tv"
+            android:drawableTop="@drawable/babyinfo_bn_style"
+            android:gravity="top|center"
+            android:text="@string/babyinfo"
+            android:textColor="@color/gray3"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/relatives_bg_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- action bar -->
+	<com.hb.lovebaby.view.MyActionBar
+	    android:id="@+id/action_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/baby_pink"
+	    app:title="@string/relative_info"
+	    />
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray"
+	    android:layout_marginTop="10dp"/>
+	
+	<!-- Relationship with baby -->
+	<LinearLayout 
+	    android:id="@+id/relationship"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:gravity="center_vertical"
+	    android:background="@color/white"
+	    android:orientation="horizontal">
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+			android:layout_marginTop="10dp"
+	        android:layout_marginStart="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/gray2"
+	        android:text="@string/relationship_with_baby"/>
+	    
+	    <TextView 
+	        android:id="@+id/relationship_tv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:textColor="@color/gray3"
+	        android:text="@string/dad"/>
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	
+	<!-- Nickname -->
+	<LinearLayout 
+	    android:id="@+id/nickname"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:gravity="center_vertical"
+	    android:background="@color/white"
+	    android:orientation="horizontal">
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginStart="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/gray2"
+	        android:text="@string/nickname"/>
+	    
+	    <TextView 
+	        android:id="@+id/relationship"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:textColor="@color/gray3"
+	        android:text="@string/dad"/>
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	
+	<!-- Nickname desc -->
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginStart="10dp"
+	    android:layout_marginBottom="15dp"
+	    android:layout_marginEnd="10dp"
+	    android:textColor="@color/gray2"
+	    android:textSize="10sp"
+	    android:text="@string/nickname_desc"/>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	
+	<!-- Personal info -->
+	<LinearLayout
+	    android:id="@+id/personal_info"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:gravity="center_vertical"
+	    android:background="@color/white"
+	    android:orientation="horizontal">
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginStart="10dp"
+	        android:textColor="@color/gray2"
+	        android:text="@string/personal_info"/>
+	    
+	    <ImageView
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="4dp"
+	        android:layout_marginBottom="4dp"
+	        android:layout_marginEnd="4dp"
+	        android:src="@drawable/psd3"
+	        android:scaleType="centerCrop"
+	        />
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:src="@drawable/arrow"
+	        />
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray"
+	    android:layout_marginTop="10dp"/>
+	
+	<!-- Permission -->
+	<LinearLayout 
+	    android:id="@+id/permission"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:background="@color/white"
+	    android:orientation="horizontal">
+	    
+	    <TextView 
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginStart="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/gray2"
+	        android:text="@string/permissions"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginEnd="10dp"
+	        android:textColor="@color/gray3"
+	        android:text="@string/administrator"
+	        />
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginStart="10dp"
+	    android:layout_marginEnd="10dp"
+	    android:inputType="textMultiLine"
+	    android:textColor="@color/gray2"
+	    android:textSize="10sp"
+	    android:text="@string/permissions_desc"/>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray"
+	    android:layout_marginTop="10dp"/>
+	
+	<!-- Delete -->
+	<LinearLayout
+	    android:id="@+id/delete"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/white"
+	    android:gravity="center">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/baby_pink"
+	        android:text="@string/delete"/>
+	    
+	</LinearLayout>
+	
+	<!-- 分隔线 -->
+	<FrameLayout android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/bg_gray" />
+	
+</LinearLayout>

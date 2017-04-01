@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <!-- action bar -->
+	<com.hb.lovebaby.view.MyActionBar
+	    android:id="@+id/action_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/baby_pink"
+	    app:title="@string/relatives"
+	    app:action_text="@string/invite"
+	    />
+
+	<!-- 母亲和父亲 -->
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="150dp"
+	    android:gravity="center_vertical"
+	    android:padding="6dp"
+	    android:orientation="horizontal">
+	    
+	    <!-- 邀请母亲 -->
+	    <FrameLayout
+	        android:id="@+id/mother_container"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1" 
+	        android:layout_marginEnd="4dp"/>
+	    
+	    <FrameLayout
+	        android:id="@+id/father_container"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:layout_marginStart="4dp" />
+	    
+	</LinearLayout>
+	
+	<!-- 其他亲友 -->
+	<LinearLayout
+	    android:id="@+id/other_relatives"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	    
+	</LinearLayout>
+	
+</LinearLayout>

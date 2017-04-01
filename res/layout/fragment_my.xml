@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/memo_content_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/msg_green"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- 个人信息 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 头像 -->
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/psd3" />
+
+        <!-- 字 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alex"
+                android:textColor="@color/gray3"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/complete_personal_info"
+                android:textColor="@color/gray2"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- 右箭头 -->
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@color/transparent"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+
+    <!-- 按钮 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@color/bg_gray"
+        android:orientation="vertical" >
+
+        <!-- 第一行 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_my_add_baby"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/add_baby_style"
+                android:padding="15dp"
+                android:text="@string/add_baby" />
+
+            <!-- 分隔线 -->
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray1" />
+
+            <Button
+                android:id="@+id/btn_my_feedback"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/feedback_style"
+                android:padding="15dp"
+                android:text="@string/feedback" />
+
+            <!-- 分隔线 -->
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray1" />
+
+            <Button
+                android:id="@+id/btn_my_settings"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/settings_style"
+                android:padding="15dp"
+                android:text="@string/settings" />
+        </LinearLayout>
+
+        <!-- 分隔线 -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray1" />
+
+        <!-- 第二行 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_my_add_family"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/add_family_style"
+                android:padding="15dp"
+                android:text="@string/add_family" />
+
+            <!-- 分隔线 -->
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray1" />
+
+            <Button
+                android:id="@+id/btn_my_collection"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/my_collection_style"
+                android:padding="15dp"
+                android:text="@string/collection" />
+
+            <!-- 分隔线 -->
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray1" />
+
+            <Button
+                android:id="@+id/btn_my_baby_memo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/baby_memo_style"
+                android:padding="15dp"
+                android:text="@string/baby_memo" />
+        </LinearLayout>
+
+        <!-- 分隔线 -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray1" />
+    </LinearLayout>
+
+</LinearLayout>

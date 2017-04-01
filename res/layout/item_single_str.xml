@@ -1,0 +1,114 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"  
+    android:layout_height="70sp"
+    android:background="@drawable/shape_corner"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#646464"
+                android:textSize="15sp"
+                android:layout_width="0sp"
+                android:gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:text="Height:"
+                />
+            <TextView
+                android:textColor="#72da6f"
+                android:textSize="15sp"
+                android:id="@+id/tv_title"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0.000"
+                />
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="cm"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:textSize="12sp"
+            android:textColor="#c8c8c8"
+            android:id="@+id/tv_describe"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:text="Body description"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#646464"
+                android:textSize="15sp"
+                android:layout_width="0sp"
+                android:gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:text="Weight:"
+                />
+            <TextView
+                android:textColor="#72da6f"
+                android:textSize="15sp"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/tv_phone"
+                android:text="0.000"
+                />
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="kg"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:textSize="12sp"
+            android:textColor="#c8c8c8"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:id="@+id/tv_time"
+            android:text="Body description"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

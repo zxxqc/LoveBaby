@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/time_line_oper_bar_height"
+    android:layout_gravity="right"
+    android:layout_marginRight="41.0dip"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg_timeline_oper_bar"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/btn_lol"
+                style="@style/imagebutton_timeline_oper_bar"
+                android:contentDescription="@null"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="10.0dip"
+                android:src="@drawable/btn_timeline_oper_lol" />
+
+            <ImageButton
+                android:id="@+id/btn_happy"
+                style="@style/imagebutton_timeline_oper_bar"
+                android:contentDescription="@null"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="10.0dip"
+                android:src="@drawable/btn_timeline_oper_happy" />
+
+            <ImageButton
+                android:id="@+id/btn_bud"
+                style="@style/imagebutton_timeline_oper_bar"
+                android:contentDescription="@null"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="10.0dip"
+                android:src="@drawable/btn_timeline_oper_bud" />
+
+            <ImageButton
+                android:id="@+id/btn_like"
+                style="@style/imagebutton_timeline_oper_bar"
+                android:contentDescription="@null"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="10.0dip"
+                android:src="@drawable/btn_timeline_oper_like" />
+
+            <ImageButton
+                android:id="@+id/btn_share"
+                style="@style/imagebutton_timeline_oper_bar"
+                android:contentDescription="@null"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingTop="10.0dip"
+                android:src="@drawable/btn_timeline_oper_share" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_timeline_oper_bar_line" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="38.5dip" >
+
+            <TextView
+                android:id="@+id/tv_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:drawableLeft="@drawable/ic_timeline_oper_comment"
+                android:drawablePadding="4.0dip"
+                android:gravity="center"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:singleLine="true"
+                android:text="@string/comment"
+                android:textColor="#ffbfbfbf"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/tv_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:singleLine="true"
+                android:text="@string/str_title_bar_title_edit"
+                android:textColor="#ffbfbfbf"
+                android:textSize="14.0sp" />
+
+            <ImageView
+                android:id="@+id/iv_comment_hide"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_toLeftOf="@id/tv_edit"
+                android:layout_toRightOf="@id/tv_comment"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="#00000000"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="-2.0dip"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_timeline_oper_arrow" />
+
+</LinearLayout>

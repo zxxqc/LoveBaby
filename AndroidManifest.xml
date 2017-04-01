@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hb.lovebaby"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="25" />
+
+    <!-- 网络访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <!-- sd卡写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 相机权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 在SD卡中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name="com.hb.lovebaby.LBApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <activity
+            android:name="com.hb.lovebaby.activity.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.AddMyBabyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.AddMyBabyInvitationCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.CollectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.FeedbackActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.AccountInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.BindNewPhoneNumberActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.BindNewEmailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.ChangePasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.AboutSalamBabyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.HelpCenterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.VideoSettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.AlertsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.AlertsParentingRemindActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.AlertsParentingRemindParentingRemindActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.AlertsParentingRemindBabyDaynamicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.PrivacyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.BabyMemoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.SystemMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.BabyDynamicMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.ReplyMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.PraiseMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.ZoomActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.MemoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.BabyNewChangesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.SetLanguage"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.BabyInfoActivity"
+            android:label="@string/title_activity_baby_info"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.NickNameActivity"
+            android:label="@string/title_activity_nick_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.TypeChooseActivity"
+            android:label="@string/title_activity_type_choose"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.HWActivity"
+            android:label="@string/title_activity_hw"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.BabyGrowthRecordActivity"
+            android:label="@string/title_activity_baby_growth_record"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 宝宝关系 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.RelativesActivity"
+            android:label="Relatives"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 邀请亲人 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.RelativesSendInvitationActivity"
+            android:label="RelativesSendInvitation"
+            android:screenOrientation="portrait" />
+        <!-- 自定义亲人信息 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.RelativesCustomRelationshipActivity"
+            android:label="CustomRelatives"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 亲人关系 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.RelativesRelationshipActivity"
+            android:label="RelationshipWithBaby"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 亲人信息 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.RelativesInfoActivity"
+            android:label="RelativeInfo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 亲人信息-昵称 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.RelativesNicknameActivity"
+            android:label="Nickname"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 亲人信息-权限 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.PermissionsActivity"
+            android:label="Permissions"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 个人信息 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.PersonalInfoActivity"
+            android:label="PersonalInfo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 个人信息-名字 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.PersonalInfoNameActivity"
+            android:label="PersonalInfoName"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 个人信息-地区 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.PersonalInfoRegionActivity"
+            android:label="PersonalInfoRegion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 个性签名 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.PersonalInfoSignatureActivity"
+            android:label="PersonalInfoSignature"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 云相册 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.AlbumnActivity"
+            android:label="PersonalInfoSignature"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 云相册 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.AlbumSearchActivity"
+            android:label="PersonalInfoSignature"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.PhotoSelectorActivity"
+            android:label="PersonalInfoSignature"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.VideoSelectorActivity"
+            android:label="PersonalInfoSignature"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.VideoPreviewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hb.lovebaby.activity.PhotoPreviewActivity"
+            android:label="PersonalInfoSignature"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SelectRecordsTimeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".activity.VisualRangeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".activity.MemoInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".activity.growth.GrawthRecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".activity.growth.AddRecord"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".activity.growth.ModifyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 添加宝宝 -->
+        <activity
+            android:name="com.hb.lovebaby.activity.myactivity.AddBadyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.hb.lovebaby.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

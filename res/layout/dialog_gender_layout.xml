@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/gender"
+        android:textColor="#323232"
+        android:textSize="16sp" />
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="@color/bg_gray" />
+
+    <RadioButton
+        android:id="@+id/boy_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/boy"
+        android:button="@drawable/radio_btn"
+        android:textColor="#323232"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="@color/bg_gray" />
+
+    <RadioButton
+        android:id="@+id/girl_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/girl"
+        android:button="@drawable/radio_btn"
+        android:textColor="#323232"
+        android:padding="10dp"
+        android:textSize="16sp" />
+ <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="@color/bg_gray" />
+
+    <RadioButton
+        android:id="@+id/unknow_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/unknown"
+        android:button="@drawable/radio_btn"
+        android:textColor="#323232"
+        android:padding="10dp"
+        android:textSize="16sp" />
+</LinearLayout>

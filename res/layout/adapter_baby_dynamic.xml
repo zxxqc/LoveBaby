@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="10dp" >
+
+            <ImageView
+                android:id="@+id/img_baby_dynamic_baby_head_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:id="@+id/img_baby_dynamic_baby_head_girl_or_boy"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:scaleType="fitCenter" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_adatper_baby_dynamic_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/gray2"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/img_baby_dynamic_baby_girl_or_boy"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal" >
+
+            <ToggleButton
+                android:id="@+id/tbtn_adatper_baby_dynamic_is_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@color/transparent"
+                android:checked="false"
+                android:drawableEnd="@drawable/toggle_btn"
+                android:text=""
+                android:textOff=""
+                android:textOn="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_gray" />
+
+</LinearLayout>

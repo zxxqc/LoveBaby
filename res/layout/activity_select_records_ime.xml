@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- action bar -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/activity_title_layout" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginTop="20.0dip"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                style="@style/setting_divider_style"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:id="@+id/capture"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/setting_height"
+                android:background="@drawable/btn_settings_alone"
+                android:paddingLeft="@dimen/addnew_setting_left_padding" >
+
+                <TextView
+                    android:id="@+id/tv_capture_title"
+                    style="@style/textview_select_act_time_left"
+                    android:text="@string/time_capture" />
+
+                <ImageView
+                    android:id="@+id/iv_capture_arrow"
+                    style="@style/imageview_select_act_time_right"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/tv_capture_time"
+                    style="@style/textview_select_act_time_right"
+                    android:layout_toLeftOf="@id/iv_capture_arrow"
+                    android:layout_toRightOf="@id/tv_capture_title" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/create_top_divider"
+                style="@style/setting_divider_style_with_padding"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:id="@+id/create"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/setting_height"
+                android:background="@drawable/btn_settings_alone"
+                android:paddingLeft="@dimen/addnew_setting_left_padding" >
+
+                <TextView
+                    android:id="@+id/tv_create_title"
+                    style="@style/textview_select_act_time_left"
+                    android:text="@string/time_current" />
+
+                <ImageView
+                    android:id="@+id/iv_create_arrow"
+                    style="@style/imageview_select_act_time_right"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/tv_create_time"
+                    style="@style/textview_select_act_time_right"
+                    android:layout_toLeftOf="@id/iv_create_arrow"
+                    android:layout_toRightOf="@id/tv_create_title" />
+            </RelativeLayout>
+
+            <ImageView
+                style="@style/setting_divider_style_with_padding"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:id="@+id/custom"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/setting_height"
+                android:background="@drawable/btn_settings_alone"
+                android:paddingLeft="@dimen/addnew_setting_left_padding" >
+
+                <TextView
+                    android:id="@+id/tv_custom_title"
+                    style="@style/textview_select_act_time_left"
+                    android:text="@string/time_custom" />
+
+                <ImageView
+                    android:id="@+id/iv_custom_arrow"
+                    style="@style/imageview_select_act_time_right"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/tv_custom_time"
+                    style="@style/textview_select_act_time_right"
+                    android:layout_toLeftOf="@id/iv_custom_arrow"
+                    android:layout_toRightOf="@id/tv_custom_title" />
+            </RelativeLayout>
+
+            <ImageView
+                style="@style/setting_divider_style"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

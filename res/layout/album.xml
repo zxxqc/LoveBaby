@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+
+    <com.hb.lovebaby.view.MyActionBar
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/baby_blue"
+        app:title="@string/cloud_photo_album" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/baby_blue_light"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/search_input_style"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/please_input_here"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/gray3"
+            android:textColorHint="@color/gray2"
+            android:textSize="13sp" />
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="0dp"
+            android:background="@color/transparent"
+            android:src="@drawable/search_btn_blue" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+
+        <ListView
+            android:id="@+id/albumn_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:orientation="vertical" />
+
+        <ImageButton
+            android:id="@+id/albumn_add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/albumn_list_view"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="-80dp"
+            android:background="@color/transparent"
+            android:src="@drawable/albumn_add_btn" />
+    </RelativeLayout>
+
+</LinearLayout>

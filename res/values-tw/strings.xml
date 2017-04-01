@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- 繁体中文 -->
+    <string name="app_name">Say High</string>
+
+    <!-- 语言设置 -->
+    <string name="tv_set_language_simplified_chinese">簡體中文</string>
+    <string name="tv_set_language_traditional_chinese">繁體中文</string>
+
+ 
+</resources>

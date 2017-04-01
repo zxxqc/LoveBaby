@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="acti_audio_progress_bg">#10000000</item>
+    <item type="drawable" name="community_reply_item_nor">#00000000</item>
+    <item type="drawable" name="community_reply_item_sel">#ffdfdfdf</item>
+    <item type="drawable" name="event_post_audio_progress_bg">#1e000000</item>
+    <item type="drawable" name="event_post_upload_progress_bg">#fff5f5f5</item>
+    <item type="drawable" name="timeline_comment_bg_nor">#00000000</item>
+    <item type="drawable" name="timeline_comment_bg_sel">#ffd3d3d3</item>
+    <item type="drawable" name="timeline_tip_bg">#33000000</item>
+</resources>

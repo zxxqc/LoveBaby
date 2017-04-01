@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/activity_title_layout" />
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_gray" />
+
+    <!-- Phone number -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/registered_account"
+            android:textColor="#323232"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_registered_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00000000"
+            android:hint="@string/registered_account_hint"
+            android:textColor="@color/gray1"
+            android:textColorHint="@color/gray1"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/registered_please_use_the"
+        android:textColor="#e3903f"
+        android:textSize="10sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/registered_the_password"
+            android:textColor="#323232"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_registered_the_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00000000"
+            android:hint="@string/registered_the_password_hint"
+            android:inputType="textPassword"
+            android:password="true"
+            android:textColor="@color/gray1"
+            android:textColorHint="@color/gray1"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/registered_confirm_password"
+            android:textColor="#323232"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_registered_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00000000"
+            android:hint="@string/registered_confirm_password_hint"
+            android:inputType="textPassword"
+            android:password="true"
+            android:textColor="@color/gray1"
+            android:textColorHint="@color/gray1"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_gray" />
+
+    <!-- Facebook account -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/registered_the_name"
+            android:textColor="#323232"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_registered_the_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00000000"
+            android:hint="@string/registered_the_name_hint"
+            android:textColor="@color/gray1"
+            android:textColorHint="@color/gray1"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_gray" />
+
+    <Button
+        android:id="@+id/btn_registered_complete_registration"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/add_my_baby_enter_invitation_code_btn_bg"
+        android:text="@string/registered_complete_registration"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/baby_new_changes"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/relatives_bg_color"
+    android:orientation="vertical" >
+
+    <!-- action bar -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/activity_title_layout" />
+
+    <!-- 输入框+语音+表情+第一次 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <!-- 输入框 -->
+
+        <EditText
+            android:id="@+id/babynewchanges_textview"
+            style="@android:style/Widget.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="@string/baby_new_changes_textview_hint"
+            android:textColor="@color/black" >
+        </EditText>
+        <!-- 语音+表情+第一次 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/babynewchanges_voiceview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:background="@color/transparent"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:paddingRight="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_voice_selector" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/babynewchanges_emojiview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:paddingRight="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_emoji_selector" >
+            </ImageButton>
+
+            <LinearLayout
+                android:id="@+id/babynewchanges_firsttime_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/babynewchanges_firsttime_imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_fitsttime_selector" >
+                </ImageButton>
+
+                <TextView
+                    android:id="@+id/babynewchanges_firsttime_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/baby_new_changes_firsttime"
+                    android:textColor="#636465" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/div_color" />
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/div_color" />
+
+    <!-- 记录时间、可见范围、所在位置 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <!-- 记录时间 -->
+
+        <RelativeLayout
+            android:id="@+id/recording_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:text="@string/recording_time"
+                android:textColor="@color/baby_new_changes_item_color" />
+
+            <ImageView
+                android:id="@+id/recording_time_arrow_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/arrow" />
+
+            <TextView
+                android:id="@+id/recording_time_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/recording_time_arrow_imageview"
+                android:paddingRight="5dp"
+                android:text="28-10-2016"
+                android:textColor="@color/baby_new_changes_item_value_color" />
+        </RelativeLayout>
+        <!-- 分隔线 -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/div_color" />
+        <!-- 可见范围 -->
+
+        <RelativeLayout
+            android:id="@+id/visual_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:text="@string/visual_range"
+                android:textColor="@color/baby_new_changes_item_color" />
+
+            <ImageView
+                android:id="@+id/visual_range_arrow_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/arrow" />
+
+            <TextView
+                android:id="@+id/visual_range_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/visual_range_arrow_imageview"
+                android:paddingRight="5dp"
+                android:text="@string/visual_range_all_family_members"
+                android:textColor="@color/baby_new_changes_item_value_color" />
+        </RelativeLayout>
+        <!-- 分隔线 -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/div_color" />
+        <!-- 所在位置 -->
+
+        <RelativeLayout
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:text="@string/location"
+                android:textColor="@color/baby_new_changes_item_color" />
+
+            <ImageView
+                android:id="@+id/location_arrow_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/arrow" />
+
+            <TextView
+                android:id="@+id/location_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/location_arrow_imageview"
+                android:paddingRight="5dp"
+                android:text="迪拜"
+                android:textColor="@color/baby_new_changes_item_value_color" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/div_color" />
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/div_color" />
+
+    <!-- 添加图片 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <!-- 自定义相册选择视图 -->
+
+        <GridView
+            android:id="@+id/custom_album_gridview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:horizontalSpacing="3dp"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:verticalSpacing="5dp" />
+    </LinearLayout>
+
+    <!-- 分隔线 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/div_color" />
+
+</LinearLayout>
