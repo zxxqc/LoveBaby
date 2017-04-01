@@ -21,10 +21,10 @@ public class MyFragment extends Fragment {
 
 	private Button btnAddBaby, btnFeedback, btnSettings; // 第一行按钮
 	private Button btnAddFamily, btnCollection, btnBabyMemo; // 第二行按钮
+	private String aa = "";
 
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_my, null);
 		initView(view);
 		initClick();
@@ -51,8 +51,7 @@ public class MyFragment extends Fragment {
 
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(getActivity(),
-						AddMyBabyActivity.class);//添加宝宝
+				Intent intent = new Intent(getActivity(), AddMyBabyActivity.class);// 添加宝宝
 				startActivity(intent);
 			}
 		});
@@ -61,8 +60,7 @@ public class MyFragment extends Fragment {
 
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(getActivity(),
-						FeedbackActivity.class);//上传Feedback文件
+				Intent intent = new Intent(getActivity(), FeedbackActivity.class);// 上传Feedback文件
 				startActivity(intent);
 			}
 		});
@@ -71,8 +69,7 @@ public class MyFragment extends Fragment {
 
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(getActivity(),
-						SettingsActivity.class);//设置
+				Intent intent = new Intent(getActivity(), SettingsActivity.class);// 设置
 				startActivity(intent);
 			}
 		});
@@ -89,8 +86,7 @@ public class MyFragment extends Fragment {
 
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(getActivity(),
-						CollectionActivity.class);
+				Intent intent = new Intent(getActivity(), CollectionActivity.class);
 				startActivity(intent);
 			}
 		});
@@ -99,15 +95,14 @@ public class MyFragment extends Fragment {
 
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(getActivity(),
-						BabyMemoActivity.class);
+				Intent intent = new Intent(getActivity(), BabyMemoActivity.class);
 				startActivity(intent);
 			}
 		});
 	}
-	
+
 	private void getUserInfo() {
-//		GetUserInfoHttp getUserInfoHttp = new GetUserInfoHttp(getActivity());
-//		getUserInfoHttp.requestNetForGetUserInfo();
+		// GetUserInfoHttp getUserInfoHttp = new GetUserInfoHttp(getActivity());
+		// getUserInfoHttp.requestNetForGetUserInfo();
 	}
 }
